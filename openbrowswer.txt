@@ -1,0 +1,12 @@
+*** Setting ***
+Library Selenium2Library
+Suite Setup Go to homepage
+Suite Teardown Close All Browsers
+
+*** Variables ****
+${HOMEPAGE}    http://www.google.fi
+${BROWSER}     chrome
+
+*** Test Cases ***
+
+*** Keywords ***
